@@ -66,6 +66,10 @@ a:hover {
   cursor: default;
 }
 
+.bar {
+  color: black;
+}
+
 /* HAMBURGUER MENU */
 
 #hamburger-nav {
@@ -144,6 +148,15 @@ a:hover {
 
 .hamburger-icon span:first-child {
   transform: none;
+}
+
+/* BLACK LINE DIV */
+
+.black_line {
+  height: 1px;
+  background-color: rgb(53, 53, 53);
+  width: 85%;
+  margin: 0 auto;
 }
 
 /* SECTIONS */
