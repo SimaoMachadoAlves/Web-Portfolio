@@ -11,16 +11,17 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Simão Alves</div>
+      <div class="logo" onclick="location.href='./'">Simão Alves</div>
       <div>
         <ul class="nav-links">
+          <li><a href="#profile"></a></li>
           <li><a href="#about">About</a></li>
           <p class="bar">|</p>
           <li><a href="#experience">Experience</a></li>
           <p class="bar">|</p>
           <li><a href="#projects">Projects</a></li>
           <p class="bar">|</p>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">Contacts</a></li>
         </ul>
       </div>
     </nav>
@@ -36,7 +37,7 @@
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
         </div>
       </div>
     </nav>
@@ -236,7 +237,6 @@
               >
                 GitHub
               </button>
-              <!-- onclick="window.open('./Assets/DAI.mp4')" -->
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="window.open('https://youtu.be/lIsHudl_sJo', '_blank')"
@@ -307,6 +307,12 @@
           </p>
         </div>
       </div>
+      <img
+        src="./Assets/arrow-up.png"
+        alt="Up Arrow icon"
+        class="icon arrow"
+        onclick="window.scrollTo(0, 0)"
+      />
     </section>
     <footer>
       <nav>
@@ -315,7 +321,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Contacts</a></li>
           </ul>
         </div>
       </nav>
