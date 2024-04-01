@@ -308,12 +308,6 @@ section {
   bottom: 2.5rem;
 }
 
-.arrow:hover {
-  background-color: rgb(225, 225, 225);
-  border-radius: 95%;
-  transition: background-color 0.3s ease;
-}
-
 .details-container {
   padding: 1.5rem;
   flex: 1;
