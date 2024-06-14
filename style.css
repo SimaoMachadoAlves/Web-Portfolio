@@ -378,17 +378,18 @@ article .icon {
   background: rgb(250, 250, 250);
 }
 
-.volleystats-img {
+#volleystats-img,
+#agc-img {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
   border: rgb(163, 163, 163) 0.1rem solid;
 }
 
-.agc-img {
+#gh-img {
   border-radius: 2rem;
   width: 90%;
-  height: 90%;
+  height: 9.8rem;
   border: rgb(163, 163, 163) 0.1rem solid;
 }
 
